@@ -1,0 +1,36 @@
+div{
+    color:rgb(0, 255, 255);
+    width: 1800px;
+    height: 600px;
+    background-image: url(./images/yyx.jpg);
+    background-color: #be1b1b;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.b{
+    background-image: url(./images/四乔1.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+}
+/* a:link{
+    color: green;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: black;
+} */
+/* 工作中，一个a标签选择器设置超链接的样式，hover状态特殊设置 */
+/* a{
+    color: red;
+}
+a:hover{
+    color: green;
+    
+} */

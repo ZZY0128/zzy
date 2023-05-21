@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>无序列表</title>
+</head>
+<body>
+    <ul>
+        <li>列表条目1</li>
+        <li>列表条目2</li>
+        <li>列表条目3</li>
+    </ul>
+    <ol>
+        <li>步骤1</li>
+        <li>步骤2</li>
+        <li>步骤3</li>
+    </ol>
+    <dl>
+        <dt>服务中心</dt>
+        <dd>申请售后</dd>
+        <dd>申请政策</dd>
+    </dl>
+    <table border="1">
+        <thead>
+           <tr>
+                <th>姓名</th>
+                <th>语文</th>
+                <th>数学</th>
+                <th>总分</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>张三</td>
+                <td>88</td>
+                <td rowspan="2">55</td>
+                <td>99</td>
+            </tr>
+            <tr>
+                <td>李四</td>
+                <td>87</td>
+                <!-- <td>55</td> -->
+                <td>96</td>
+            </tr> 
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>总结</td>
+                <td colspan="3">全市第一</td>
+                <!-- <td>全市第一</td>
+                <td>全市第一</td> -->
+            </tr> 
+        </tfoot>
+        
+    </table>
+    <br><br>
+    <!-- 特点：输入什么就显示什么 -->
+    文本框：<input type="text">
+    <br>
+    <br>
+    <!-- 输入什么都是以  点  的形式显示 -->
+    
+    兴趣爱好：
+    <input type="checkbox" checked>C++
+    <input type="checkbox">Java
+    <input type="checkbox">Python
+    <br><br>
+    上传文件
+    <input type="file" multiple>
+    <br>
+    城市：
+    <select>
+        <option>北京</option>
+        <option>上海</option>
+        <option>深圳</option>
+        <option>广州</option>
+        <option selected>成都</option>
+    </select>
+    <br>
+    <!-- 右下角有拖拽功能，以后都会禁用 -->
+    <textarea>请输入评论</textarea>
+    <br><br>
+    <!-- 表单区域 -->
+    <!-- action="" 未来发送数据的地址 -->
+    <form action="">
+        密码框：<input type="password" placeholder="请输入密码">
+        <br><br>
+        性别：
+        <input type="radio" name="gender" checked id="man">
+        <label for="man">男</label>
+        <label><input type="radio" name="gender">女</label>
+        <br><br>
+        <button type="submit">提交</button>
+        <button type="reset">重置</button>
+        <button type="button">普通按钮</button>
+        </form>
+        <br><br>
+        <!-- 大盒子 -->
+        <div>111111</div>
+        <div>222222</div>
+        <!-- 小盒子 -->
+        <span>333333</span>
+        <span>444444</span>
+        <br>
+        &lt;乾坤未定，你们皆是黑&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;马&gt;
+    
+</body>
+</html>

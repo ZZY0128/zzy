@@ -1,0 +1,14 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+
+    padding: 20px;
+    border: 1px dashed #000;
+    margin: 50px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

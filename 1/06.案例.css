@@ -1,0 +1,28 @@
+.banner{
+    height: 500px;
+    background-color: #f3f3f4;
+    background-image: url(./images/五乔1.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    text-align: right;
+    color: #333;
+}
+.banner h2{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 100px;
+}
+.banner p{
+    font-size: 20px;
+}
+.banner a{
+    width: 125px;
+    height: 40px;
+    background-color: #f06b1f;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}

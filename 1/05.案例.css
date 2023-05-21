@@ -1,0 +1,14 @@
+a{
+    display: block;
+    width: 200px;
+    height: 80px;
+    color: #fff;
+    background-color: #3064bb;
+    text-decoration: none;
+    text-align: center;
+    line-height: 80px;
+    font-size: 18px;
+}
+a:hover{
+    background-color: #608dd9;
+}
